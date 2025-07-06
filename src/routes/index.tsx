@@ -10,22 +10,14 @@ import { Badge } from "@/components/ui/badge";
 import { Code2 } from "lucide-react";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Separator } from "@/components/ui/separator";
+import { useTechnologiesStore } from "@/stores/technologies";
 
 export const Route = createFileRoute("/")({
   component: HomeComponent,
 });
 
 function HomeComponent() {
-  const technologies = [
-    "⚡ Vite pour un build rapide",
-    "⚛️ React V19.1",
-    "🔒 TypeScript strict",
-    "🎨 Tailwind CSS",
-    "🛣️ TanStack Router",
-    "📦 Zustand",
-    "🎭 Shadcn/ui",
-    "🔧 ESLint + Prettier",
-  ];
+  const { technologies } = useTechnologiesStore();
 
   return (
     <div className="bg-muted dark:from-slate-900 dark:to-slate-800 rounded-lg">
