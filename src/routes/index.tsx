@@ -11,13 +11,17 @@ import { Code2 } from "lucide-react";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Separator } from "@/components/ui/separator";
 import { useTechnologiesStore } from "@/stores/technologies";
-
+import { useQuery } from "convex/react";
+import { api } from "../../convex/_generated/api";
 export const Route = createFileRoute("/")({
   component: HomeComponent,
 });
 
 function HomeComponent() {
   const { technologies } = useTechnologiesStore();
+  const tasks = useQuery(api.tasks.get);
+
+  console.log(tasks);
 
   return (
     <div className="bg-muted dark:from-slate-900 dark:to-slate-800 rounded-lg">

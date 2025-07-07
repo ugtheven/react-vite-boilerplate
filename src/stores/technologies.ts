@@ -15,6 +15,7 @@ export const useTechnologiesStore = create<State & Action>((set) => ({
     "🔒 Strict TypeScript",
     "🎨 Tailwind CSS",
     "🛣️ TanStack Router",
+    "🗄️ Convex",
     "📦 Zustand",
     "🎭 Shadcn/ui",
     "🔧 ESLint + Prettier",

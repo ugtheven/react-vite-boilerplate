@@ -12,6 +12,7 @@ Technologies included in this boilerplate:
 - 🎨 Tailwind CSS
 - 🛣️ TanStack Router
 - 📦 Zustand
+- 🗄️ Convex
 - 🎭 Shadcn/ui
 - 🔧 ESLint + Prettier
 
