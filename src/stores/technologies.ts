@@ -10,9 +10,9 @@ type Action = {
 
 export const useTechnologiesStore = create<State & Action>((set) => ({
   technologies: [
-    "⚡ Vite pour un build rapide",
+    "⚡ Vite for fast building",
     "⚛️ React V19.1",
-    "🔒 TypeScript strict",
+    "🔒 Strict TypeScript",
     "🎨 Tailwind CSS",
     "🛣️ TanStack Router",
     "📦 Zustand",

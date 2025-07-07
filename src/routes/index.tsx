@@ -32,14 +32,14 @@ function HomeComponent() {
             </h1>
           </div>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-4">
-            Mon boilerplate personnel pour faciliter la création d'applications
-            React avec une stack moderne et efficace.
+            My personal boilerplate to facilitate the creation of React
+            applications with a modern and efficient stack.
           </p>
           <Alert className="flex flex-col items-center gap-2 max-w-2xl mx-auto">
-            <AlertTitle>Note importante</AlertTitle>
+            <AlertTitle>Important note</AlertTitle>
             <AlertDescription>
-              Ce boilerplate est en cours de développement et sera amélioré au
-              fil de mes projets.
+              This boilerplate is under development and will be improved as my
+              projects progress.
             </AlertDescription>
           </Alert>
         </div>
@@ -47,9 +47,9 @@ function HomeComponent() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-4">
           <Card>
             <CardHeader>
-              <CardTitle>✨ Stack technique</CardTitle>
+              <CardTitle>✨ Technical Stack</CardTitle>
               <CardDescription>
-                Les technologies incluses dans ce boilerplate
+                Technologies included in this boilerplate
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -66,10 +66,8 @@ function HomeComponent() {
 
           <Card>
             <CardHeader>
-              <CardTitle>🚀 Prêt à démarrer</CardTitle>
-              <CardDescription>
-                Les commandes pour commencer votre projet
-              </CardDescription>
+              <CardTitle>🚀 Ready to start</CardTitle>
+              <CardDescription>Commands to begin your project</CardDescription>
             </CardHeader>
             <CardContent>
               <div className="space-y-4">
@@ -83,7 +81,7 @@ function HomeComponent() {
                 </div>
                 <div>
                   <Badge variant="secondary" className="mb-2">
-                    Développement
+                    Development
                   </Badge>
                   <div className="bg-muted p-3 rounded-md font-mono text-sm">
                     npm run dev

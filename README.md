@@ -1,21 +1,21 @@
 # React Vite Boilerplate
 
-Mon boilerplate personnel pour faciliter la création d'applications React avec une stack moderne et efficace.
+My personal boilerplate to facilitate the creation of React applications with a modern and efficient stack.
 
-## ✨ Stack technique
+## ✨ Technical Stack
 
-Les technologies incluses dans ce boilerplate :
+Technologies included in this boilerplate:
 
-- ⚡ Vite pour un build rapide
+- ⚡ Vite for fast building
 - ⚛️ React V19.1
-- 🔒 TypeScript strict
+- 🔒 Strict TypeScript
 - 🎨 Tailwind CSS
 - 🛣️ TanStack Router
 - 📦 Zustand
 - 🎭 Shadcn/ui
 - 🔧 ESLint + Prettier
 
-## 🚀 Prêt à démarrer
+## 🚀 Ready to start
 
 ### Installation
 
@@ -23,7 +23,7 @@ Les technologies incluses dans ce boilerplate :
 npm install
 ```
 
-### Développement
+### Development
 
 ```bash
 npm run dev
@@ -35,14 +35,14 @@ npm run dev
 npm run build
 ```
 
-## 📁 Structure du projet
+## 📁 Project Structure
 
 ```
 src/
-├── components/      # Composants réutilisables
-│   ├── ui/          # Composants importés de shadcn/ui
-│   └── layout/      # Composants de mise en page
-├── routes/          # Pages de l'application
-├── stores/          # Gestion d'état avec Zustand
-├── lib/             # Utilitaires et configurations
+├── components/      # Reusable components
+│   ├── ui/          # Components imported from shadcn/ui
+│   └── layout/      # Layout components
+├── routes/          # Application pages
+├── stores/          # State management with Zustand
+├── lib/             # Utilities and configurations
 ```
