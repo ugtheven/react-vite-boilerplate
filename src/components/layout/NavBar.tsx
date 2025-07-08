@@ -24,10 +24,10 @@ const NavBar = () => {
             <Link to="/">
               <NavigationMenuLink>
                 <div className="flex items-center justify-center mb-1">
-                  <div className="p-1 rounded-md mr-2 bg-black dark:bg-white">
-                    <Code2 className="h-[1.2rem] w-[1.2rem] text-white dark:text-black" />
+                  <div className="p-1 rounded-md mr-2 bg-primary">
+                    <Code2 className="h-[1.2rem] w-[1.2rem] text-secondary" />
                   </div>
-                  <h1 className="text-md font-bold text-black dark:text-white">
+                  <h1 className="text-md font-bold text-primary">
                     React Vite Boilerplate
                   </h1>
                 </div>
